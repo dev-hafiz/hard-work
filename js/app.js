@@ -1,9 +1,3 @@
-// get global variable 
-const booksAreaParant = document.getElementById('books-area');
-const totalResult = document.getElementById('total-results')
-const foundMassage = document.getElementById('not-found');
-const errorMassage = document.getElementById('error-massage');
-
 // Spinner toggle func 
 const spinnerToggle = displaySpinner => {
      document.getElementById('spinner').style.display = displaySpinner;
@@ -71,3 +65,9 @@ const displayBook = books => {
           foundMassage.textContent = '';
      });
 }
+
+// get global variable 
+/* const booksAreaParant = document.getElementById('books-area');
+const totalResult = document.getElementById('total-results')
+const foundMassage = document.getElementById('not-found');
+const errorMassage = document.getElementById('error-massage'); */
