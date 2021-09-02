@@ -30,13 +30,14 @@ document.getElementById('search-button').addEventListener('click', () => {
 })
 
 const getInputText = inputText => {
-     spinnerToggle('block')
-     errorMassage.textContent = '';
-     // Get url and fech with json
+
      const url = (`http://openlibrary.org/search.json?q=${inputText}`)
      fetch(url)
           .then(res => res.json())
           .then(data => displayBook(data.docs))
+
+     /* spinnerToggle('block')
+     errorMassage.textContent = ''; */
 }
 
 
