@@ -5,10 +5,7 @@ const spinnerToggle = displaySpinner => {
 
 document.getElementById('search-button').addEventListener('click', () => {
 
-     // default empty befor search 
-     totalResult.textContent = '';
-     booksAreaParant.textContent = '';
-     foundMassage.textContent = '';
+
 
      //  get input value 
      const inputFiled = document.getElementById('input-filed');
@@ -71,3 +68,8 @@ const displayBook = books => {
 const totalResult = document.getElementById('total-results')
 const foundMassage = document.getElementById('not-found');
 const errorMassage = document.getElementById('error-massage'); */
+
+// default empty befor search 
+/* totalResult.textContent = '';
+booksAreaParant.textContent = '';
+foundMassage.textContent = ''; */
